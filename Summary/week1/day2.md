@@ -23,3 +23,35 @@ Week 6: Focus on fine-tuning models and essential data science skills like data 
 Week 7: Fine-tuning an open-source model for a specific business task, leading to an unexpected outcome.
 Week 8: Integration of all learnings into the development of a generative platform that addresses a commercial problem.
 Throughout this journey, participants will have access to engaging content, tools, and resources, including a code cookbook to support their projects.
+
+
+## 15. Day 2 - Frontier Models: OpenAI GPT, Claude, Gemini & Grok Compared
+
+In the previous lecture, we focused on frontier models in generative AI, distinguishing between closed source and open source models. The main points included:
+
+Closed Source Models: These are typically developed by major companies (Frontier Labs) and require payment for access due to high development costs. Notable examples include:
+
+OpenAI's GPT: With GPT 5 being the latest version, following the popular ChatGPT release in late 2022.
+Claude by Anthropic: Known for its powerful versions like Haiku, Sonnet, and Opus; Claude is also used in coding platforms.
+Google's Gemini: This evolved from the earlier Bard model, with Gemini 2.5 Pro currently available and a new version, Gemini 3, expected soon.
+Grok by X.ai: Recognized as part of the big four frontier models alongside GPT, Claude, and Gemini.
+Comparison of Models: The lecture emphasized understanding the capabilities of these models and how they compare to one another, while acknowledging that open source models will be discussed in later sessions.
+
+The session concluded with a promise to delve into how to choose the right model for specific tasks in the upcoming weeks.
+
+
+## 16. Open-Source LLMs: LLaMA, Mistral, DeepSeek, and Ollama
+It covers various open-source models, including LLaMA, Mistral, DeepSeek, and Ollama, focusing on their characteristics, applications, and differences. Here’s a detailed summary:
+LLaMA Models: The chapter begins with LLaMA (Large Language Model Meta AI) versions, discussing LLaMA 3.2 and its 3 billion parameters, which is notable for being easier to run on local computers. More powerful versions like LLaMA 3.1 come in sizes of 8 billion, 70 billion, and the 405 billion version, which competes with closed-source models in capabilities. The sheer scale of parameters in these models—up to 10 trillion—highlights their complexity compared to traditional models.
+Mistral: This section introduces the Mistral model from the French company Mistral, characterized as a mixture of experts model. It effectively channels queries to specialized smaller models within its framework to provide context-specific answers, showcasing innovative approaches in open-source LLM development.
+DeepSeek: The chapter briefly touches on DeepSeek, discussing its contribution to the realm of open-source models. While specific details may not have been outlined, it positions itself alongside other prominent models, emphasizing collaboration and experimentation in the field.
+Ollama: Ollama is introduced as a wrapper project facilitating the use of various small-scale LLMs, including Qwen 3.4B and Qwen 2.5 coder. The discussion around Ollama stresses the importance of experimentation with different models for personal and professional projects, highlighting its practical implications in the LLM engineering domain.
+Experiments and User Experiences: The instructor shares personal experiences with different models, indicating that while Qwen 2.5 shows great promise across various languages, certain models excel in specific tasks like explanation. Encouraging learners to explore and share their findings not only fosters community but also enhances understanding of which models are best suited for particular applications.
+Conclusion: The chapter concludes by emphasizing the importance of hands-on experimentation with open-source models to find the best fit for specific problems, an essential skill for aspiring LLM engineers.
+This chapter serves as a valuable resource for understanding the landscape of open-source language models and encourages learners to actively engage with and evaluate these powerful tools.
+
+## 17.  Chat Completions API: HTTP Endpoints vs OpenAI Python Client
+
+## 18.  Using the OpenAI Python Client with Multiple LLM Providers
+
+## 19.  Running Ollama Locally with OpenAI-Compatible Endpoints
