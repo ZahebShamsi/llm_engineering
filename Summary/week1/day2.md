@@ -7,7 +7,7 @@ Models: Different types of models are discussed, covering both open-source and c
 Tools and Frameworks: Several tools and libraries to be used throughout the course are introduced, such as Hugging Face, Long Chain, Gradio, Weights and Biases, and Modal.
 Techniques: Various techniques for utilizing these models and tools are explored, including API calls, multi-shot prompting, fine-tuning, and agentization.
 The instructor encourages engagement from participants of all skill levels, emphasizing practical application. Self-study guides are provided for additional support, and students are urged to actively work on coding exercises and share their progress on platforms like LinkedIn to foster community engagement.
-ˀOverall, the lecture aims to equip students with the skills necessary for effective use of LLMs, encouraging persistence and active participation throughout the course.
+Overall, the lecture aims to equip students with the skills necessary for effective use of LLMs, encouraging persistence and active participation throughout the course.
 
 
 ## 14. Your 8-Week Journey: From Chat Completions API to LLM Engineer
@@ -75,6 +75,6 @@ Interoperability Among LLM Providers: The lecture discusses how other LLM provid
 Configuring for Different Providers: The speaker explains how to configure the library to connect to these alternative endpoints, which involves specifying the base URL and API key for the selected model.
 Practical Example with Gemini: A practical demonstration is gßßiven on setting up the Gemini client using the same structure as the OpenAI client, showing that users can change the model name and base URL to switch providers seamlessly.
 Retrieving Fun Facts: The lecture concludes with a demonstration of retrieving fun facts from both OpenAI and Gemini, showcasing the ease of switching between models while maintaining a consistent coding approach.
-ˀOverall, the chapter provides valuable insights into the interoperability of LLM APIs and the practical use of the OpenAI Python client. If you have any specific questions or need further elaboration on any point, feel free to ask!
+Overall, the chapter provides valuable insights into the interoperability of LLM APIs and the practical use of the OpenAI Python client. If you have any specific questions or need further elaboration on any point, feel free to ask!
 
 ## 19.  Running Ollama Locally with OpenAI-Compatible Endpoints
