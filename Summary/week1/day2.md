@@ -64,7 +64,7 @@ Challenges with Manual Requests: The potential difficulty in manually crafting H
 
 Using the OpenAI Python Client Library: To simplify API interactions, the OpenAI Python client library is introduced. This library abstracts away the complexities of sending HTTP requests and handling JSON, allowing for cleaner and more intuitive Python coding.
 Reassurance on Library Use: The instructor emphasizes that the library is open source and user-friendly, serving merely to wrap the HTTP request process.
-Overall, this chapter provides foundational knowledge and practical tools to effectively use the Chat Completions API along with the OpenAI Python client library. If you need more details or have specific questions about a topic, feel free to ask!
+Overall, this chapter provides foundational knowledge and practical tools to effectively use the Chat Completions API along with the OpenAI Python client library.
 
 ## 18.  Using the OpenAI Python Client with Multiple LLM Providers
 This chapter focuses on utilizing the OpenAI Python client to interact with multiple large language model (LLM) providers. Here’s a detailed summary:

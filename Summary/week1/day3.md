@@ -39,7 +39,7 @@ Supervision Emphasis: The key takeaway emphasizes that while these models are po
 Analogy: The lecture concludes by likening the effective use of LLMs to having a diligent junior analyst, underscoring the importance of supervision to ensure accurate and meaningful outcomes.
 
 
-## 22. Base, Chat, and Reasoning Models: Understanding LLM Types,
+## 22.  Base, Chat, and Reasoning Models: Understanding LLM Types,
 
 In the lecture titled "Day 3 - Base, Chat, and Reasoning Models: Understanding LLM Types," the instructor explores the different types of large language models (LLMs) and their functionalities. Here’s a summary of the key points discussed:
 
@@ -60,3 +60,60 @@ Base models are useful for foundational skill training.
 Overall, the lecture offers a comprehensive view of LLM types and their diverse applications, providing valuable insights into how to effectively leverage these models in various contexts. 
 
 
+## 23.  Testing Claude, Gemini, Grok & DeepSeek with ChatGPT Deep Research
+In the lecture titled "Day 3 - Testing Claude, Gemini, Grok & DeepSeek with ChatGPT Deep Research," the instructor performs a series of tests comparing various models, focusing on their unique functionalities and performance capabilities.
+
+Key points discussed include:
+
+Model Overview: The instructor begins by introducing Claude, Gemini, Grok, and DeepSeek, highlighting their strengths and how they differ from one another. A critical aspect addressed is their effectiveness in handling real-time and multimodal reasoning.
+
+Testing Methodology: The lecture features a variety of questions posed to these models to assess their responses and conversational styles. The focus is not solely on commercial functionality, but on understanding how each model interacts and processes information.
+
+Example Test: The instructor provides an easy puzzle—"If you toss two coins and one is heads, what are the chances the other is tails?"—using this as an opportunity to demonstrate differences in training and inference time across the models during testing.
+
+Performance Observations: Insights into the models' behavior are shared, noting that Claude is often praised for its conversational style, while Gemini shines in real-time reasoning. The instructor also mentions the cost considerations when running these tests, suggesting a balance between exploration and expense.
+
+DeepSeek's Consideration: It is noted that DeepSeek has been updated in the course's lab work and is presented as a powerful, open-source tool, albeit not necessarily stronger than leading models like GPT-4.
+
+Overall, the lecture emphasizes hands-on experimentation with the latest AI models, encouraging an understanding of their distinct characteristics and applications.
+
+
+## 24.  Agentic AI in Action: Deep Research, Claude Code, and Agent Mode
+In the lecture titled "Day 3 - Agentic AI in Action: Deep Research, Claude Code, and Agent Mode," the instructor delves into the development of agentic AI solutions, focusing on frameworks that allow for complex problem-solving through structured outputs.
+
+Key components of the lecture include:
+
+Definition of Agentic AI: The discussion begins with an overview of what constitutes agentic AI, highlighting its ability to break down larger problems into manageable tasks. This is facilitated by multiple models working collaboratively, exhibiting traits such as autonomy and memory.
+
+Creating an Agent Framework: The instructor leads students in constructing a comprehensive agent framework, combining techniques that involve task division, tool usage, and collaboration among different LLMs or software components.
+
+Core Principles of Agentic AI: Five primary characteristics of effective agentic solutions are outlined:
+
+The ability to decompose complex tasks.
+Utilization of tools and structured output.
+Collaboration within an agent environment.
+Capability of one LLM acting as a planner.
+Exhibiting autonomy beyond basic prompt responses, such as making decisions based on external data.
+Practical Applications: Real-world use cases are discussed, emphasizing the trade-offs between different model types (open-source vs. proprietary) and providing guidelines for implementing agentic AI effectively in various business and development scenarios.
+
+Real-time Examples: The lecture also covers recent advancements like Claude 3.5, explaining its capabilities in specialized domains and how these advancements can impact AI implementation strategies.
+
+Overall, the session aims to equip students with the knowledge necessary to leverage agentic AI in practical, innovative ways.
+
+
+## 25.  Frontier Models Showdown: Building an LLM Competition Game
+In the lecture titled "Day 3 - Frontier Models Showdown: Building an LLM Competition Game," the instructor engages participants in exploring frontier large language models (LLMs) through a competitive game format. The main focus of this session is to understand the capabilities and performance of various leading LLMs.
+
+Key aspects of the lecture include:
+
+Introduction to Frontier Models: The session begins with an explanation of what frontier models are, specifically referring to state-of-the-art LLMs such as GPT, Claude, and Gemini. These models are discussed concerning their roles in pushing the boundaries of AI capabilities.
+
+Game Concept: The instructor showcases how to create a game that allows LLMs to compete against each other, highlighting the interactive and engaging aspects of testing their performance in a playful context. This setup is designed not only for fun but also as an educational tool to demonstrate the differences in model capabilities.
+
+Understanding Performance Metrics: Throughout the gameplay, various metrics and performance indicators of the models are evaluated, giving insights into their strengths and weaknesses. This includes analyzing how well each model performs on tasks such as problem-solving, contextual understanding, and reasoning.
+
+Hands-On Interaction: The lecture emphasizes practical engagement, encouraging students to think critically about the models’ responses and adaptively learn from the competitive interactions.
+
+Future Applications: The instructor concludes by discussing potential applications for these frontier models, emphasizing how understanding their diverse capabilities will aid in developing real-world solutions.
+
+Overall, the lecture fosters a deeper appreciation of frontier LLMs through an interactive competition, combining learning with an entertaining format.
