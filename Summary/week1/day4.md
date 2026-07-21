@@ -1,4 +1,4 @@
-## 26.  Understanding Transformers: The Architecture Behind GPT and LLMs
+## 26. Understanding Transformers: The Architecture Behind GPT and LLMs
 
 In the lecture titled "Day 4 - Understanding Transformers: The Architecture Behind GPT and LLMs," the speaker explores the transformative effect of the transformer architecture on AI and data science.
 
@@ -12,7 +12,7 @@ Efficiency: While transformers are acknowledged as a significant optimization, t
 The lecture lays the groundwork for further exploration of transformers in upcoming sessions.
 
 
-## 27.  From LSTMs to Transformers: Attention, Emergent Intelligence & Agentic AI
+## 27. From LSTMs to Transformers: Attention, Emergent Intelligence & Agentic AI
 In this lecture, the evolution of neural network models is discussed, specifically the transition from Long Short-Term Memory (LSTM) networks to Transformers. The role of attention mechanisms is highlighted as a key factor that improved processing capabilities.
 
 Key points include:
@@ -78,4 +78,36 @@ Practical Insights: The lecture emphasizes the importance of understanding token
 
 Overall, the lecture equips learners with a fundamental understanding of how GPT and similar models deconstruct language into tokens for processing, which is crucial for their effective application in language tasks.
 
-## 31. 
+## 31. Tokenizing with tiktoken and Understanding the Illusion of Memory
+
+In the lecture titled "Tokenizing with tiktoken and Understanding the Illusion of Memory," the speaker focuses on tokenization with the tiktoken package for the GPT-4.1 model. Here's a summary of the key points:
+
+Practical Tokenization: The session starts with a demonstration of how to encode text into tokens using an example phrase, "Hi, my name is Ed." The speaker explains that this process involves breaking text into smaller chunks and mapping them to unique identifiers in the model’s vocabulary.
+
+Token Decoding: Participants learn how to decode tokens back into the original text, which illustrates the relationship between words and their corresponding token IDs. The speaker emphasizes how certain words, such as 'banoffee,' may be split into multiple tokens, prompting the audience to experiment with different words to observe their tokenization.
+
+Illusion of Memory: The speaker transitions to discussing the "illusion of memory" in language models, clarifying that LLMs are stateless and do not retain memory of past interactions. Instead, responses are generated based solely on the current input. To create continuity in conversations, users need to include the previous context in each API call.
+
+Importance of Context: The lecture stresses that including the entire conversation history allows the model to generate more coherent and contextually relevant responses, despite the model not retaining previous interactions.
+
+Computational Costs: The session concludes by touching on the computational costs of maintaining context during interactions. While there may be additional charges for using more tokens, the speaker notes that the cost per token remains relatively low.
+
+Overall, the lecture provides valuable insights into tokenization processes and the mechanics of how language models operate within defined contexts.
+
+
+## 32. Context Windows, API Costs, and Token Limits in LLMs
+
+In the lecture titled "32. Day 4 - Context Windows, API Costs, and Token Limits in LLMs," the speaker examines crucial aspects of working with large language models (LLMs) like context windows, token limits, and API pricing structures.
+
+Context Windows: The lecture discusses the importance of context windows in LLMs, which determine how much of the preceding conversation can be retained and utilized in generating responses. This is critical for maintaining coherent interactions.
+
+Token Costs: The speaker outlines the costs associated with using APIs, clarifying that while token expenses can seem high, they are often lower than they appear. For example, input tokens are billed by the million, meaning passing in large texts like Shakespeare's works would only cost a few dollars.
+
+Practical Implications: The presenter emphasizes that most tasks in the course (like asking questions or summarizing text) typically incur minimal costs—often less than a cent per interaction. This allows for efficient experimentation without significant financial burden.
+
+Token Management: The lecture highlights the necessity to understand token limits when feeding inputs into the LLM. Users should be aware that all tokens from the current conversation must be included when generating a response, though historical context is not always necessary unless it's vital for coherence.
+
+Conclusion: The session concludes by underscoring the foundational knowledge necessary for effectively utilizing tokens, managing context windows, and being aware of the associated API costs. The speaker expresses excitement for the next lectures that will delve deeper into these concepts.
+
+Overall, the lecture serves to inform users about managing costs and inputs effectively while engaging with LLMs.
+
