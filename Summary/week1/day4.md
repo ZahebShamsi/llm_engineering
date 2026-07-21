@@ -47,3 +47,35 @@ Training and Inference Time Scaling: The discussion includes concepts like train
 Visual Aids: The lecture concludes with visual representations of various models' parameters, emphasizing their exponential growth on a logarithmic scale and encourages further exploration of resources for a deeper understanding.
 
 Overall, the lecture provides a comprehensive overview of how parameters have evolved in AI models, showcasing ongoing advancements in the field.
+
+## 29. What Are Tokens? From Characters to GPT's Tokenizer
+In the lecture titled "Day 4 - What Are Tokens? From Characters to GPT's Tokenizer," the instructor covers the concept of tokens, their significance in language models, and the process of tokenization. Here’s a brief summary:
+
+Understanding Tokens: The lecture begins by defining what tokens are in the context of language models, emphasizing that tokens can be individual characters, chunks of words, or even full words, depending on the complexity of the text being processed.
+
+Tokenization Process: The instructor demonstrates the process of encoding text into tokens using a tokenizer, specifically for models like GPT-4. For example, when encoding a simple phrase, the tokenizer breaks it down into numerical IDs that represent each token, retrieving these values from a pre-defined vocabulary.
+
+Importance of Special Tokens: There’s a discussion on special tokens and their roles in organizing input data efficiently for language models. Understanding how these tokens work is crucial for interacting effectively with AI systems.
+
+Foundation for Future Lectures: The lecture indicates that knowledge about tokens will serve as a foundational understanding for upcoming topics, such as embeddings and context windows.
+
+Overall, the lecture provides essential insights into how text is converted into tokens, which is crucial for encoding input for AI models.
+
+
+## 30. Understanding Tokenization: How GPT Breaks Down Text into Tokens
+
+In the lecture titled "Day 4 - Understanding Tokenization: How GPT Breaks Down Text into Tokens," the instructor explores the process of tokenization in models like GPT. Here’s a summary:
+
+Definition of Tokens: Tokens are described as chunks of letters or words that a model uses to process and understand text. The lecture clarifies that a token can be a full word, part of a word, or even a character depending on its context within the text.
+
+Tokenization Mechanism: The instructor explains that GPT employs a tokenizer to convert text into tokens, where each token is represented by a numerical ID. Using OpenAI's tokenizer tool, examples are provided to demonstrate how sentences are broken down into distinct tokens.
+
+Handling Variations in Language: The lecture highlights the benefits of this tokenization approach, such as effectively managing variations like proper nouns or word stems. By breaking down words into meaningful chunks, the model can better grasp the underlying semantics of the text.
+
+Special Tokens: The concept of special tokens is introduced, which serve specific functions in the context of the conversation or input. These tokens mark transitions in dialogue, like the beginning of a user prompt or system prompts, enhancing the model's contextual understanding.
+
+Practical Insights: The lecture emphasizes the importance of understanding tokenization for effectively working with language models and sets the stage for future discussions on embeddings and their role in AI comprehension.
+
+Overall, the lecture equips learners with a fundamental understanding of how GPT and similar models deconstruct language into tokens for processing, which is crucial for their effective application in language tasks.
+
+## 31. 
