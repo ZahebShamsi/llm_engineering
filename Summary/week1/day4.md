@@ -11,3 +11,22 @@ Practical Engagement: Participants are encouraged to engage practically with the
 Efficiency: While transformers are acknowledged as a significant optimization, the speaker notes that other approaches exist, although none have yet surpassed transformers in effectiveness.
 The lecture lays the groundwork for further exploration of transformers in upcoming sessions.
 
+
+## 27.  From LSTMs to Transformers: Attention, Emergent Intelligence & Agentic AI
+In this lecture, the evolution of neural network models is discussed, specifically the transition from Long Short-Term Memory (LSTM) networks to Transformers. The role of attention mechanisms is highlighted as a key factor that improved processing capabilities.
+
+Key points include:
+
+Limitations of LSTMs: While LSTMs were effective for understanding sequential relationships, they struggled with parallelization, making training time-consuming.
+
+Advantages of Transformers: The introduction of Transformers simplified training through parallel computation, leading to significant advancements in natural language processing (NLP).
+
+Influence of Research: The impact of the paper "Attention is All You Need" is emphasized, illustrating that a simpler attention mechanism can yield better results than more complex models.
+
+Emergent Intelligence: In 2023, experts expressed initial astonishment at Transformers, followed by concerns about misinterpretation of statistical predictions. However, the phenomenon of emergent intelligence, where large neural networks generate intelligent responses, intrigued many.
+
+Prompt vs. Context Engineering: The evolution from prompt engineering to context engineering is discussed, focusing on providing comprehensive information to LMs for improved performance.
+
+Generative AI: The lecture defines generative AI and explores how LMs can autonomously dictate workflows and actions based on input sequences.
+
+The session concludes with an indication of further exploration into generative AI in future discussions, underscoring its relevance in the field.
