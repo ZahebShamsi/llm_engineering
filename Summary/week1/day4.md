@@ -30,3 +30,20 @@ Prompt vs. Context Engineering: The evolution from prompt engineering to context
 Generative AI: The lecture defines generative AI and explores how LMs can autonomously dictate workflows and actions based on input sequences.
 
 The session concludes with an indication of further exploration into generative AI in future discussions, underscoring its relevance in the field.
+
+
+## 28. Parameters: From Millions to Trillions in GPT, LLaMA & DeepSeek
+
+In the lecture titled "Day 4 - Parameters: From Millions to Trillions in GPT, LLaMA & DeepSeek," the speaker discusses the role of parameters in machine learning models, particularly focusing on notable architectures like GPT and LLaMA.
+
+Definition and Significance: The lecture begins by defining parameters and their importance, noting a dramatic increase from traditional models (20 to 200 parameters) to modern ones, like GPT models, which range from millions to trillions of parameters.
+
+Parameter Growth: Examples include GPT-1 with 117 million parameters, GPT-2 with 1.5 billion, GPT-3 at 175 billion, and GPT-4 containing an astounding 1.76 trillion parameters. This growth is correlated with improvements in model intelligence and training capacity.
+
+Efficiency of Smaller Models: The speaker highlights that newer models, such as the smaller version of Gemma with only 270 million parameters, can outperform larger models like GPT-2, indicating a shift towards efficiency in model design.
+
+Training and Inference Time Scaling: The discussion includes concepts like training time scaling, where larger models can process more data, and inference time scaling, which explores techniques for enhancing model performance during active use.
+
+Visual Aids: The lecture concludes with visual representations of various models' parameters, emphasizing their exponential growth on a logarithmic scale and encourages further exploration of resources for a deeper understanding.
+
+Overall, the lecture provides a comprehensive overview of how parameters have evolved in AI models, showcasing ongoing advancements in the field.
