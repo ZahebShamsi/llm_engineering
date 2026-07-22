@@ -35,4 +35,39 @@ Experimentation and Iteration: The speaker encourages a hands-on approach, advoc
 
 Overall, by the end of the lecture, participants should feel empowered to effectively utilize JSON prompts with the OpenAI API, helping to create rich, interactive applications.
 
-## 35. 
+## 35. Chaining GPT Calls: Building an AI Company Brochure Generator
+
+In the lecture titled "35. Day 5 - Chaining GPT Calls: Building an AI Company Brochure Generator," the speaker demonstrates how to create a dynamic AI tool that generates a sales brochure based on a company's website.
+
+Commercial Problem Introduction: The lecture begins by introducing the goal of building a brochure generator that takes a web address and produces a sales brochure for potential clients, investors, or recruits. The brochure will compile information from various relevant web pages linked to the primary URL provided.
+
+Information Retrieval: The process includes not only pulling data from a single web page but also extracting and following links to gather comprehensive information about the company, which serves as the foundation for the brochure.
+
+Prompting Structure: The speaker details the prompting structure necessary for interacting with the OpenAI API, explaining both the system and user prompts. The system prompt instructs the model to analyze multiple web pages and create a brochure in Markdown format, including aspects like company culture and career opportunities, if available.
+
+Function Development: Participants learn to create a function, get_brochure_user_prompt, that accepts a company name and a URL to structure the user prompts effectively. This function gathers content from the provided website and prepares it for processing by GPT.
+
+Multiple GPT Calls: The lecture elaborates on how to chain calls to GPT effectively. It involves one function to gather links and another to generate the brochure, showcasing the importance of stacking functions for enhanced productivity and effectiveness.
+
+Testing and Iteration: The session emphasizes the importance of iterative testing to refine prompts and ensure the brochure aligns with the desired outcome, allowing for further enhancements based on user feedback and performance.
+
+Overall, this lecture equips participants with the skills to build a practical AI application that utilizes chained GPT calls to accomplish a commercial objective efficiently.
+
+## 36. Building a Brochure Generator with GPT-4 and Streaming Results
+
+## 37. Business Applications, Challenges & Building Your AI Tutor
+
+In the lecture titled "37. Day 5 - Business Applications, Challenges & Building Your AI Tutor," the speaker discusses various facets of applying AI in business, the challenges faced, and the development of a personalized AI tutor.
+
+AI in Business: The lecture starts by highlighting the significance of AI applications in solving business problems. It emphasizes customer support AI assistants as one of the most crucial applications, setting the stage for the practical work to be undertaken.
+
+Common Challenges: The speaker addresses common challenges that practitioners encounter in implementing AI solutions, emphasizing the need for ongoing refinement and adaptation based on feedback and changing business needs.
+
+Building an AI Tutor: Participants are guided through the process of developing an AI tutor. The focus is on creating an AI system that can provide tailored learning experiences, answering questions based on the individual needs of users.
+
+Iterative Development: The importance of iterative development is discussed, where feedback loops allow for continuous improvement of the AI model and its effectiveness in meeting business objectives or educational goals.
+
+Real-World Application: The lecture emphasizes hands-on applications that attendees can undertake to better understand how to implement AI in real-world scenarios, equipping them with skills to build their AI-based solutions effectively.
+
+By the end of the lecture, participants should have a clearer understanding of not only the practical aspects of building AI solutions but also the strategic considerations necessary for successful implementation in business contexts.
+
